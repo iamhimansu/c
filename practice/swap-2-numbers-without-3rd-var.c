@@ -27,4 +27,6 @@ void swapWithoutThirdVar(int *a, int *b)
     *a = *a + *b;
     *b = *a - *b;
     *a = *a - *b;
+
+    // one liner *a = *a + *b - (*b = *a);
 }
