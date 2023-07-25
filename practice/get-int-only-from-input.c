@@ -10,6 +10,7 @@ int main(int argc, char const *argv[])
     long long int x = getIntegerOnly();
 
     printf("Integer part was %lld", x);
+    getchar();
     return 0;
 }
 
