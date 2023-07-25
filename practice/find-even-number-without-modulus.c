@@ -1,5 +1,4 @@
 #include <stdio.h>
-#include <stdbool.h>
 
 int main(int argc, char const *argv[])
 {
@@ -11,7 +10,7 @@ int main(int argc, char const *argv[])
     printf("\n");
 
     // binary & bitwise operator
-    
+
 
     if (x & 1)
     {
