@@ -13,7 +13,7 @@ int main(int argc, char const *argv[])
         k = 1;
         for (int j = 0; j < n * 2; j++)
         {
-            if (j >= n - i && j <= n + i)
+            if (j > n - i && j < n + i)
             {
                 printf("%d", k);
                 if (j < n)
@@ -24,6 +24,14 @@ int main(int argc, char const *argv[])
                 else
                 {
                     k--;
+                }
+                if (k > 9)
+                {
+                    k = 1;
+                }
+                if (k < 0)
+                {
+                    k = 9;
                 }
             }
             else

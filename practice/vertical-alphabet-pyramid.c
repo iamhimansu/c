@@ -30,6 +30,14 @@ int main(int argc, char const *argv[])
             {
                 printf(" ");
             }
+            if (c > 90)
+            {
+                c = 65;
+            }
+            if (c < 65)
+            {
+                c = 90;
+            }
         }
         printf("\n");
     }
